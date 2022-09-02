@@ -285,7 +285,6 @@ int hotel::check(int r)
 			break;
 		}
 	}
-	_getch();
 	file.close();
 	return(flag);
 }
